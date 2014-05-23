@@ -3,7 +3,7 @@ package com.gwyn;
 /**
  * Created by glockett.
  */
-public class BrowserCalls {
+public class StepbyStepJava {
 
     public static void main(String[] args) {
 
@@ -36,7 +36,7 @@ public class BrowserCalls {
 
         }
 
-        //While loop
+        //WHILE LOOPS
         int l = -10;
 
         while (l <= 10) {
@@ -45,7 +45,7 @@ public class BrowserCalls {
             // or l = l + 1 or l += 2 will increment by 2 each time
 
 
-            //Do while...
+            //USING DO WHILE...
             int d = 10;
             do {
                 System.out.println("d = " + d);
@@ -66,7 +66,8 @@ public class BrowserCalls {
                 System.out.println("Both numbers are -ve");
             }
 
-// Switch cases
+// USING SWITCH CASES
+
             int j = 2;
 
             switch (j) {
@@ -93,32 +94,32 @@ public class BrowserCalls {
 
             }
 
-            //ARRAYS
+            //USING ARRAYS
 
             /*int a = 10;
             int b = 20;
             int c, d, e;
             c=30;
             d=40; e=50;*/
-/*
+            /*
             int a1 =10;
             int a2 = 20;*/
 
 
-        //arrays are always zero relative
-        int []a = {10, 20, 30, 40, 50};
+            //arrays are always zero relative
+            int[] a = {10, 20, 30, 40, 50};
             System.out.println(a[2] + ", " + a[4]);
 
-        //enhanced for loop with an array
-        for (int arrayvar : a) {
-            System.out.println(arrayvar);
+            //enhanced for loop with an array
+            for (int arrayvar : a) {
+                System.out.println(arrayvar);
+
+                int[] myarray = new int[5];
+
+            }
+
 
         }
-
-
-
-        }
-
 
     }
 }

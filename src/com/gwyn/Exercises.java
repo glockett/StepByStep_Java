@@ -21,10 +21,10 @@ public class Exercises {
 
         for (String temp : myNums) {
             total = total + Integer.parseInt(temp);
-
-            System.out.println(total);
-
         }
+
+        System.out.println("Total is: " + total);
+
 
     }
 }

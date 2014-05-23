@@ -39,23 +39,81 @@ public class BrowserCalls {
         //While loop
         int l = -10;
 
-        while (l <= 10){
+        while (l <= 10) {
             System.out.println("x = " + l);
             l++;
             // or l = l + 1 or l += 2 will increment by 2 each time
 
 
-        //Do while...
-        int d = 10;
+            //Do while...
+            int d = 10;
             do {
                 System.out.println("d = " + d);
                 d--;
-            } while( d < 0);
+            } while (d > 0);
+
+            //And or
+            int s, t;
+            s = 10;
+            t = 10;
+            // && = and
+            // || = or
+            if (s > 0 && t > 0) {
+                System.out.println("Both numbers are +ve");
+            } else if (s > 0 || t > 0) {
+                System.out.println("At least one number is +ve");
+            } else {
+                System.out.println("Both numbers are -ve");
+            }
+
+// Switch cases
+            int j = 2;
+
+            switch (j) {
+
+                case 0:
+                    System.out.println("value is 0");
+                    break;
+
+                case 1:
+                    System.out.println("value is 2");
+                    break;
+
+                case 2:
+                    System.out.println("value is 2");
+                    break;
+
+                case 3:
+                    System.out.println("value is 3");
+                    break;
+
+                default:
+                    System.out.println("No Value");
+                    break;
+
+            }
+
+            //ARRAYS
+
+            /*int a = 10;
+            int b = 20;
+            int c, d, e;
+            c=30;
+            d=40; e=50;*/
+/*
+            int a1 =10;
+            int a2 = 20;*/
 
 
+        //arrays are always zero relative
+        int []a = {10, 20, 30, 40, 50};
+            System.out.println(a[2] + ", " + a[4]);
 
+        //enhanced for loop with an array
+        for (int arrayvar : a) {
+            System.out.println(arrayvar);
 
-
+        }
 
 
 
@@ -63,6 +121,4 @@ public class BrowserCalls {
 
 
     }
-
-
 }

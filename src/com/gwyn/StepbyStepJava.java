@@ -66,7 +66,7 @@ public class StepbyStepJava {
                 System.out.println("Both numbers are -ve");
             }
 
-// USING SWITCH CASES
+            // USING SWITCH CASES
 
             int j = 2;
 
@@ -115,6 +115,15 @@ public class StepbyStepJava {
                 System.out.println(arrayvar);
 
                 int[] myarray = new int[5];
+
+                myarray[0] = 25;
+                myarray[4] = 30;
+
+                //STRING MANIPULATION
+
+                String name = "James Dean";
+                System.out.println(name.toUpperCase());
+                System.out.println(name.substring(6, 10));
 
             }
 
